@@ -41,8 +41,8 @@ drop database paytm;
  
  -- what % of users who add to cart actually purchase?
  
- select count(distinct case when itemsincart >= 1 then sessionid end)*100.0/
- count(distinct case when purchased = 1 then sessionid end) as cart_to_purchase_rate
+ select count(distinct case when PURCHASED = 1 then sessionid end)*100.0/
+ count(distinct case when ITEMSINCART >= 1 then sessionid end) as cart_to_purchase_rate
  from customer_journey;
  
  -- how many sessions end without reaching product page?
