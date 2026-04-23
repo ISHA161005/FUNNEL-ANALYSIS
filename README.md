@@ -1,9 +1,45 @@
-The biggest drop-off happens between Product Page → Cart (~50% drop).
-Majority traffic comes from mobile, so mobile experience directly impacts overall conversion.
-France is the primary user base, but user distribution across countries is fairly balanced.
-Google drives the highest traffic, indicating strong reliance on organic/search channels.
-Users are moderately engaged, but not deeply interacting with the platform.
-Only ~35% of users who add items to cart complete the purchase, meaning ~65% users abandon at checkout.
-A large number of sessions drop at the homepage itself.
-Although the platform receives good traffic across devices and countries, the major issue lies in conversion. The largest drop-off occurs at the product page stage, and a significant number of users don’t even reach product pages.
-This indicates problems in product appeal and homepage experience. Improving these stages can significantly increase conversions without increasing traffic.
+# 📊 E-Commerce Funnel Analysis
+
+## 📌 Description
+This project analyzes user behavior across different stages of a funnel to identify drop-offs and improve conversion rates. Data was extracted using SQL and visualized using Power BI.
+
+## 🎯 Objective
+To understand how users move through the funnel and identify where the highest drop-off occurs.
+
+## 🚀 Features
+- Total users by device type
+- Funnel stage-wise user drop-off
+- Conversion rate (Cart to Purchase)
+- Users by country analysis
+- Average and highest time spent analysis
+- Sessions per user
+
+## 🛠️ Tech Stack
+- SQL (data extraction & analysis)
+- Power BI (data visualization & dashboard)
+
+## 📂 Project Structure
+- SQL Queries – data extraction and transformation
+- Power BI Dashboard 
+- Dataset
+
+## ▶️ How to Run
+1. Open SQL queries in your database tool
+2. Run queries to extract required data
+3. Import data into Power BI
+4. Open the .pbix file to view dashboard
+
+## 📊 Key Insights
+- Identified highest drop-off stage in the funnel
+- Analyzed conversion rate from cart to purchase
+- Found user distribution across devices and countries
+- Observed user engagement through time spent metric
+
+## 🎯 Learning
+- Learned funnel analysis concepts
+- Improved SQL querying skills
+- Built interactive dashboards using Power BI
+- Understood user behavior and conversion metrics
+
+## 🙌 Acknowledgement
+This project was created as part of my data analytics learning journey.
